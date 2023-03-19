@@ -1,6 +1,6 @@
 A=[-2,0,4,-3,2,7]
 n=len(A)
-for i in range(1,n-1):
+for i in range(1,n):
     element=A[i]
     j=i-1
     while j>=0 and A[j]>element:
